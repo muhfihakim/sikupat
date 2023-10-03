@@ -1,0 +1,30 @@
+body{
+    background: #333;
+    color: #fff;
+ }
+ .wrapper{
+    padding: 25px;
+    background: #eee;
+    color: #333;
+    border: solid 1px #fff;
+    border-radius: 4px;
+ }
+ #form_input input{
+    display: block;
+    margin: 15px 0px;
+    height: 44px;
+ }
+ .p_create{
+    font-size: 22px;
+    text-align: center;
+ }
+ @media (min-width: 768px) { /* untuk desktop */
+    .wrapper{
+      margin: 50px 320px;
+    }
+ }
+ @media (max-width: 767px) {/* untuk mobile */
+    .wrapper{
+      margin: 50px 50px;
+    }
+ }
